@@ -30,7 +30,7 @@ header {
 
 .name-div {
 	position: relative;
-	left: 160px;
+	left: 152px;
 	height: 90px;
 	float: left;
 	background: #4aaaa5;
@@ -71,7 +71,7 @@ header {
 	width: 650px;
 	position: relative;
 	float: left;
-	left: 160px;
+	left: 152px;
 	top: 40px;
 	background: #fff;
 	padding: 30px;
@@ -164,10 +164,45 @@ textarea {
 	font-size: 1.25em;
 }
 
+.portfolio-img-div {
+	width:265px;
+	height: 200px;
+	position: relative;
+	margin-top: 22px;
+	margin-bottom: 30px;
+
+}
+
+.portfolio-img {
+	width: 100%;
+	height:100%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.portfolio-img-title {
+	position: relative;
+	width: 265px;
+	height: 59px;
+	color: #ffffff;
+	background: #4aaaa5;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: lighter;
+	bottom: 70px;
+}
+
 footer{  
 	position: absolute;
 	bottom: 0;
-	top:800px;
+	top:1600px;
 	width: 1350px;
 	clear: left;
 	height: 90px;
