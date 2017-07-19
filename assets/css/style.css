@@ -94,7 +94,7 @@ header {
 	width: 183px;
 	float: left;
 	margin-right: 22px;
-
+	
 }
 
 .about-img {
@@ -104,6 +104,7 @@ header {
 
 .about-text {
 	padding-left: 22px;
+	font-size: 1.25em;
 }
 
 aside {
