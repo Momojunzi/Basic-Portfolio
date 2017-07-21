@@ -4,12 +4,12 @@
 	margin: 0;
 }
 
-html {
+html, body {
 	height: 100%;
 }
 
 body {
-	height: 100%;
+	
 	background-image: url("../images/topography.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -28,10 +28,12 @@ a:hover {
 }
 
 .container {
+
 	margin: 0 auto 0 auto;
-	display: flex;
+	/*display: flex;
 	flex-flow: column;
 	height: calc(100vh - 98px);
+	height: 100%*/
 }
 
 header {
@@ -39,6 +41,7 @@ header {
 	height: 90px;
 	position: relative;
 	background: #ffffff;
+	min-width: 100%;
 }
 
 .header-container {
@@ -80,11 +83,16 @@ header {
 }
 
 .main-content {
-	display: inline-block;
+	
 	width: 1350px;
 	margin: 0 auto 0 auto;
 	min-height: 100%;
-	flex: 1;
+	/*flex: 1;*/
+	margin-bottom: -90px;
+}
+
+.main-about {
+	height: calc(100vh - 90px);
 }
 
 .about-main {
@@ -222,26 +230,35 @@ textarea {
 	height: 60px;
 }
 
-footer { 
-	width: 100%;
+.main-content:after {
+	content: "";
+	display: block;
+}
+
+footer, .main-content:after {
 	height: 90px;
+}
+
+footer { 
+	
+	/*height: 90px;*/
 	background: #666666;
 	padding: 30px;
 	text-align: center;
 	border-top: solid #4aaaa5 8px;
-	color: #dddddd;
+    color: #dddddd;
 }
 
 .about-footer {
-	margin-top:-78px;
+	/*margin-top:-78px;*/
 }
 
 .contact-footer {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .portfolio-footer {
-	margin-top: 350px;
+	/*margin-top: 350px;*/
 }
 
 
