@@ -28,20 +28,15 @@ a:hover {
 }
 
 .container {
-
+	
 	margin: 0 auto 0 auto;
-	/*display: flex;
-	flex-flow: column;
-	height: calc(100vh - 98px);
-	height: 100%*/
 }
 
 header {
 	border-bottom: solid #cccccc 1px;
 	height: 90px;
-	position: relative;
+	margin: 0 auto 0 auto;
 	background: #ffffff;
-	min-width: 100%;
 }
 
 .header-container {
@@ -50,8 +45,7 @@ header {
 }
 
 .name-div {
-	position: relative;
-	left: 152px;
+	margin-left: 152px;
 	height: 90px;
 	float: left;
 	background: #4aaaa5;
@@ -61,17 +55,14 @@ header {
 }
 
 .header-nav {
-	position: relative;
 	float: right;
 	height: 90px;
 	text-align: center;
 	padding-top: 40px;
-	right: 240px;
+	margin-right: 240px;
 }
 
 .header-link {
-	position: relative;
-	float:left;
 	text-decoration: none;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -87,20 +78,18 @@ header {
 	width: 1350px;
 	margin: 0 auto 0 auto;
 	min-height: 100%;
-	/*flex: 1;*/
 	margin-bottom: -90px;
 }
 
 .main-about {
-	height: calc(100vh - 90px);
+	height: calc(100% - 90px);
 }
 
 .about-main {
 	width: 650px;
-	position: relative;
 	float: left;
-	left: 152px;
-	top: 40px;
+	margin-left: 152px;
+	margin-top: 40px;
 	background: #fff;
 	padding: 30px;
 	border: solid #dddddd 1px;
@@ -129,7 +118,7 @@ header {
 }
 
 .about-text {
-	padding-left: 22px;
+	
 	font-size: 1.25em;
 }
 
@@ -138,10 +127,9 @@ aside {
 	height: 196px;
 	background: #ffffff;
 	padding: 30px;
-	position: relative;
 	float: right;
-	right: 240px;
-	top: 40px;
+	margin-right: 240px;
+	margin-top: 40px;
 	border: solid #dddddd 1px;
 }
 
@@ -193,7 +181,6 @@ textarea {
 .portfolio-img-div {
 	width:265px;
 	height: 200px;
-	position: relative;
 	margin-top: 22px;
 	margin-bottom: 30px;
 }
@@ -240,8 +227,9 @@ footer, .main-content:after {
 }
 
 footer { 
-	
-	/*height: 90px;*/
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto 0 auto;
 	background: #666666;
 	padding: 30px;
 	text-align: center;
@@ -249,16 +237,12 @@ footer {
     color: #dddddd;
 }
 
-.about-footer {
-	/*margin-top:-78px;*/
+@media only screen and (max-width: 1351px) {
+	.header-footer-fix {
+		width: 1350px;
+	}
 }
 
-.contact-footer {
-	/*margin-top: 50px;*/
-}
 
-.portfolio-footer {
-	/*margin-top: 350px;*/
-}
 
 
